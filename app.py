@@ -1,4 +1,4 @@
-ffimport streamlit as st
+import streamlit as st
 import speech_recognition as sr
 from streamlit_mic_recorder import mic_recorder
 from gtts import gTTS
@@ -6,7 +6,7 @@ from io import BytesIO
 
 st.set_page_config(page_title="East Point College FAQ", page_icon="🎓")
 
-<style>
+st.markdown("""<style>,""",unsafe_allow_html=true)
 .stApp p,
 .stApp span,
 .stApp label,
@@ -22,10 +22,7 @@ st.set_page_config(page_title="East Point College FAQ", page_icon="🎓")
 .stApp {
     background-color: #f4f7fb;
 }
-.stApp, .stApp p, .stApp span, .stApp label {
-    color: #000000 !important;
-    font-weight: 600 !important;
-}
+
 h1 {
     color: #123b66;
     text-align: center;
