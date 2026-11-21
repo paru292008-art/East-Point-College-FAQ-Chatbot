@@ -1,4 +1,4 @@
-import streamlit as st
+ffimport streamlit as st
 import speech_recognition as sr
 from streamlit_mic_recorder import mic_recorder
 from gtts import gTTS
@@ -49,7 +49,6 @@ st.title("🎓 East Point College of Engineering and Technology")
 st.subheader("AI-Powered College FAQ Chatbot")
 
 st.write("Welcome! Ask me about fees, courses, hostel and transport.")
-st.info("Choose a topic, type your question or speak using the microphone.")
 
 def get_answer(question):
     q = question.lower()
