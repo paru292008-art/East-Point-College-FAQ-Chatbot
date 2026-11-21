@@ -138,10 +138,11 @@ if audio and audio.get("bytes"):
 
 # Text input
 st.subheader("Or type your question")
-
 question = st.text_input(
     "Ask your question here:",
-    key="question"
+    key="question",
+    placeholder="Type your question about East Point College...",
+    help="Ask about fees, courses, hostel or transport."
 )
 
 if st.button("Submit"):
