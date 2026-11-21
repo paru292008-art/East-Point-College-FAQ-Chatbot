@@ -104,37 +104,6 @@ for topic in ["Fees", "Courses", "Hostel", "Transport", "Admissions"]:
         st.session_state.answer = get_answer(topic)
 
 
-# Voice input
-st.subheader("🎙️ Ask using your voice")
-
-if audio and audio.get("bytes"):
-    try:
-        recognizer = sr.Recognizer()
-
-        recorded_audio = sr.AudioData(
-    audio["bytes"],
-    audio["sample_rate"],
-    audio["sample_width"])
-
-
-        spoken_question = recognizer.recognize_google(
-            recorded_audio,
-            language="en-IN")
-        
-
-        st.success("You said: " + spoken_question)
-        st.session_state.question = spoken_question
-        st.session_state.answer = get_answer(spoken_question)
-
-    except sr.UnknownValueError:
-        st.warning("Sorry, I could not understand your voice. Please try again.")
-
-    except sr.RequestError:
-        st.error("Speech recognition needs an internet connection.")
-
-    except Exception as e:
-        st.error("Voice input error: " + str(e))
-
 
 # Text input
 st.subheader("Or type your question")
