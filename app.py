@@ -10,11 +10,7 @@ st.markdown("""
 .stApp p,
 .stApp span,
 .stApp label,
-.stApp div[data-testid="stMarkdownContainer"] {
-    color: #000000 !important;
-    font-size: 18px !important;
-    font-weight: 800 !important;
-    opacity: 1 !important;
+.stApp div[data-testid="stMarkdownContainer"]
 }
 .stApp p,
 .stApp span,
