@@ -6,11 +6,7 @@ from io import BytesIO
 
 st.set_page_config(page_title="East Point College FAQ", page_icon="🎓")
 
-st.markdown("""<style>,""",unsafe_allow_html=true)
-.stApp p,
-.stApp span,
-.stApp label,
-.stApp div[data-testid="stMarkdownContainer"]
+st.markdown("""<style>
 
 .stApp p,
 .stApp span,
