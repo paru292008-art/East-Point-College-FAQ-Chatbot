@@ -1,6 +1,4 @@
 import streamlit as st
-import speech_recognition as sr
-from streamlit_mic_recorder import mic_recorder
 from gtts import gTTS
 from io import BytesIO
 
@@ -108,13 +106,6 @@ for topic in ["Fees", "Courses", "Hostel", "Transport", "Admissions"]:
 
 # Voice input
 st.subheader("🎙️ Ask using your voice")
-
-audio = mic_recorder(
-    start_prompt="Start Recording",
-    stop_prompt="Stop Recording",
-    just_once=True,
-    key="voice_recorder")
-
 
 if audio and audio.get("bytes"):
     try:
