@@ -12,6 +12,7 @@ st.markdown("""
 }
 .stApp, .stApp p, .stApp span, .stApp label {
     color: #000000 !important;
+    font-weight: 600 !important;
 }
 h1 {
     color: #123b66;
