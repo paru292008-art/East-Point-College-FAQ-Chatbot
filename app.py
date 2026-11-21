@@ -21,9 +21,10 @@ h2, h3 {
     border-radius: 12px;
 }
 .stButton button {
-    background-color: #123b66;
+    background-color: #70452F;
     color: white;
     border-radius: 10px;
+    border: none;
 }
 </style>
 """, unsafe_allow_html=True)
