@@ -7,6 +7,13 @@ from io import BytesIO
 st.set_page_config(page_title="East Point College FAQ", page_icon="🎓")
 st.markdown("""
 <style>
+.stApp p,
+.stApp span,
+.stApp label,
+.stApp div[data-testid="stMarkdownContainer"] {
+    color: #1A1A1A !important;
+    font-weight: 700 !important;
+}
 .stApp {
     background-color: #f4f7fb;
 }
