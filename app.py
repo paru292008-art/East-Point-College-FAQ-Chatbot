@@ -5,6 +5,28 @@ from gtts import gTTS
 from io import BytesIO
 
 st.set_page_config(page_title="East Point College FAQ", page_icon="🎓")
+st.markdown("""
+<style>
+.stApp {
+    background-color: #f4f7fb;
+}
+h1 {
+    color: #123b66;
+    text-align: center;
+}
+h2, h3 {
+    color: #245580;
+}
+.stTextInput input {
+    border-radius: 12px;
+}
+.stButton button {
+    background-color: #123b66;
+    color: white;
+    border-radius: 10px;
+}
+</style>
+""", unsafe_allow_html=True)
 
 st.title("🎓 East Point College of Engineering and Technology")
 st.subheader("AI-Powered College FAQ Chatbot")
