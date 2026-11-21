@@ -10,6 +10,9 @@ st.markdown("""
 .stApp {
     background-color: #f4f7fb;
 }
+.stApp, .stApp p, .stApp span, .stApp label {
+    color: #000000 !important;
+}
 h1 {
     color: #123b66;
     text-align: center;
