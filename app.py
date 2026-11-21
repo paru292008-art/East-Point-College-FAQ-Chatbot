@@ -5,13 +5,13 @@ from gtts import gTTS
 from io import BytesIO
 
 st.set_page_config(page_title="East Point College FAQ", page_icon="🎓")
-st.markdown("""
+
 <style>
 .stApp p,
 .stApp span,
 .stApp label,
 .stApp div[data-testid="stMarkdownContainer"]
-}
+
 .stApp p,
 .stApp span,
 .stApp label,
