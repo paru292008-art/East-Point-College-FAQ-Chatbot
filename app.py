@@ -34,8 +34,8 @@ h2, h3 {
     color: #245580;
 }
 .stTextInput input {
-    border-radius: 12px;
-}
+    border-radius: 12px;}
+
 .stButton button {
     background-color: #70452F;
     color: white;
