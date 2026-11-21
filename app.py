@@ -188,4 +188,4 @@ rating = st.radio(
 )
 
 if st.button("Submit Rating"):
-    st.success("Thank you for rating our chatbot!")
+   st.markdown("<p style='color:black;'>Thank you for rating our chatbot</p>", unsafe_allow_html=True)
