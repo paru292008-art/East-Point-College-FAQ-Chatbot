@@ -1,3 +1,4 @@
 streamlit
 speechRecognition
 gTTS
+streamlit-mic-recorder
